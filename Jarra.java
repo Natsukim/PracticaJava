@@ -11,8 +11,17 @@ public class Jarra {
 			}
 			this.capacidad=capacidadInicial;
 		}
+<<<<<<< HEAD
 		
 		public void llena(){
 		this.cantidad=this.capacidad;
 	}
+=======
+public int capacidad (){
+ return this.capacidad;
+}
+public int cantidad(){
+ return this.cantidad;
+}
+>>>>>>> origin/programador1
 }
