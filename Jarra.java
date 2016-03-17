@@ -13,6 +13,7 @@ public class Jarra {
 		}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		
 		public void llena(){
 		this.cantidad=this.capacidad;
@@ -20,6 +21,16 @@ public class Jarra {
 =======
 public int capacidad (){
  return this.capacidad;
+=======
+	public void llenaDesde (Jarra j){
+	while ((this.cantidad<this.capacidad)&&(j.cantidad>0)){
+	this.cantidad++;
+	j.cantidad--;
+	}
+	public String toString(){
+	return ("("+this.capacidad+","+this.cantidad+")");
+	}
+>>>>>>> origin/programador3
 }
 public int cantidad(){
  return this.cantidad;
