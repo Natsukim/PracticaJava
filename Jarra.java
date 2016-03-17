@@ -12,6 +12,7 @@ public class Jarra {
 			this.capacidad=capacidadInicial;
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 		
 		public void llena(){
 		this.cantidad=this.capacidad;
@@ -24,4 +25,15 @@ public int cantidad(){
  return this.cantidad;
 }
 >>>>>>> origin/programador1
+=======
+
+public void metodoComunitario(){ 
+// Comentario incluido para pruebas 
+           System.out.println("Aqui escribimos todos");
+         }
+public void vacia(){
+		this.cantidad=0;
+	}
+>>>>>>> origin/programador4
 }
+
