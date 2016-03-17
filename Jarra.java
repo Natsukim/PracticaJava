@@ -19,14 +19,6 @@ public class Jarra {
 		this.cantidad=this.capacidad;
 	}
 =======
-public int capacidad (){
- return this.capacidad;
-}
-public int cantidad(){
- return this.cantidad;
-}
->>>>>>> origin/programador1
-=======
 	public void llenaDesde (Jarra j){
 	while ((this.cantidad<this.capacidad)&&(j.cantidad>0)){
 	this.cantidad++;
